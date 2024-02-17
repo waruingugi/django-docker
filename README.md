@@ -1,6 +1,6 @@
 # Django Todo App
 
-**Tutorial**: [Deploying Django Apps with Docker: A Step-by-Step Guide](https://betterstack.com/community/guides/scaling-python/dockerize-django/)
+**Based On This Tutorial, But With Some Docker Improvements**: [Deploying Django Apps with Docker: A Step-by-Step Guide](https://betterstack.com/community/guides/scaling-python/dockerize-django/)
 
 ![Django todo app screenshot](screenshot.png)
 
@@ -10,7 +10,7 @@ You must have [Python3](https://www.python.org/downloads/) and [pip](https://pyp
 
 - Python 3.10.6
 - Pip 22.0.2
-- PostgreSQL 14.8
+- PostgreSQL 12
 
 ## 📦 Getting started
 
@@ -24,6 +24,8 @@ git clone https://github.com/<username>/django-todo-app
 - [Follow the tutorial](https://betterstack.com/community/guides/scaling-python/dockerize-django/) to learn how to deploy the application using Docker.
 
 - See the [docker](https://github.com/betterstack-community/django-todo-app/tree/docker) branch for the final code.
+
+- Then check out the docker-compose file from this repo for some of the changes.
 
 ## ⚖ License
 
